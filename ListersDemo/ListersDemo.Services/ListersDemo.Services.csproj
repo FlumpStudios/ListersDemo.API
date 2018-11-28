@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="2.1.1" />
+    <PackageReference Include="Moq" Version="4.10.0" />
+    <PackageReference Include="NLog" Version="4.5.11" />
+    <PackageReference Include="System.Linq.Dynamic.Core" Version="1.0.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\ListersDemo.DataAccess\ListersDemo.DataAccess.csproj" />
+    <ProjectReference Include="..\ListersDemo.API.Common\ListersDemo.API.Common.csproj" />
+  </ItemGroup>
+
+</Project>

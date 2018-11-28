@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Moq" Version="4.10.0" />
+    <PackageReference Include="System.Linq.Dynamic.Core" Version="1.0.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EfContext\ListersDemo.API.EfContext.csproj" />
+    <ProjectReference Include="..\ListersDemo\ListersDemo.API.Common\ListersDemo.API.Common.csproj" />
+  </ItemGroup>
+
+</Project>
