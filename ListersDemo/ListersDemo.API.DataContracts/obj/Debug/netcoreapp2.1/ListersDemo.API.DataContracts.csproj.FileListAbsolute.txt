@@ -23,3 +23,4 @@ C:\Users\paul.marrable\source\repos\ListersDemo\API\ListersDemo\ListersDemo.API.
 C:\Users\paul.marrable\source\repos\ListersDemo\API\ListersDemo\ListersDemo.API.DataContracts\obj\Debug\netcoreapp2.1\ListersDemo.API.DataContracts.AssemblyInfo.cs
 C:\Users\paul.marrable\source\repos\ListersDemo\API\ListersDemo\ListersDemo.API.DataContracts\obj\Debug\netcoreapp2.1\ListersDemo.API.DataContracts.dll
 C:\Users\paul.marrable\source\repos\ListersDemo\API\ListersDemo\ListersDemo.API.DataContracts\obj\Debug\netcoreapp2.1\ListersDemo.API.DataContracts.pdb
+C:\Users\paul.marrable\source\repos\ListersDemo\API\ListersDemo\ListersDemo.API.DataContracts\obj\Debug\netcoreapp2.1\ListersDemo.API.DataContracts.csprojAssemblyReference.cache

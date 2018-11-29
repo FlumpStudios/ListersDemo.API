@@ -10,6 +10,7 @@ namespace ListersDemo.Services.BusinessLogic.Filtering
 {
     public class ManufacturerFilter : IManufacturerFilter
     {
+        private static readonly NLog.Logger _logger = NLog.LogManager.GetCurrentClassLogger();
         public IEnumerable<Vehicle> Filter(IEnumerable<Vehicle> vehicles, Manufacturer manufacturer)
         {
             var response = new List<Vehicle>();           
@@ -18,7 +19,15 @@ namespace ListersDemo.Services.BusinessLogic.Filtering
             {
                 if ((bool)property.GetValue(manufacturer))
                 {
-                    response.AddRange(vehicles.Where(x => x.Manufacturer == property.Name));
+                    try
+                    {
+                        response.AddRange(vehicles.Where(x => x.Manufacturer.ToUpper() != null &&
+                        x.Manufacturer.ToUpper() == property.Name.ToUpper()));
+                    }
+                    catch (Exception e)
+                    {
+                        _logger.Error(e, "Error filtering manufacturer");
+                    }
                 }
             };
             return response;            

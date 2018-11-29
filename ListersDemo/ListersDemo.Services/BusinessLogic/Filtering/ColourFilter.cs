@@ -9,6 +9,7 @@ namespace ListersDemo.Services.BusinessLogic.Filtering
 {
     public class ColourFilter : IColourFilter
     {
+        private static readonly NLog.Logger _logger = NLog.LogManager.GetCurrentClassLogger();
         public IEnumerable<Vehicle> Filter(IEnumerable<Vehicle> vehicles, Colour colour)
         {
             var response = new List<Vehicle>();
@@ -17,7 +18,14 @@ namespace ListersDemo.Services.BusinessLogic.Filtering
             {
                 if ((bool)property.GetValue(colour))
                 {
-                    response.AddRange(vehicles.Where(x => x.ExteriorColour == property.Name));
+                    try
+                    {
+                        response.AddRange(vehicles.Where(x => x.ExteriorColour.ToUpper() == property.Name.ToUpper()));
+                    }
+                    catch (Exception e)
+                    {
+                        _logger.Error(e, "Error filtering colour");
+                    }
                 }
             };
             return response;

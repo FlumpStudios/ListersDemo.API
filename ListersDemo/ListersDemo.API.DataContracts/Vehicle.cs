@@ -9,6 +9,7 @@ namespace ListersDemo.API.DataContracts
         [MaxLength(10)]
         public string Registration { get; set; }
 
+        [Required]
         [MaxLength(30)]
         public string Manufacturer { get; set; }
 
@@ -19,8 +20,8 @@ namespace ListersDemo.API.DataContracts
         public string DerivativeOrVariant { get; set; }
 
         [MaxLength(30)]
+        [Required]
         public string ExteriorColour { get; set; }
-
 
         public decimal CurrentMileage { get; set; }
 

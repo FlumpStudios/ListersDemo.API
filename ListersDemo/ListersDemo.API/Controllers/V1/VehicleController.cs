@@ -75,7 +75,7 @@ namespace ListersDemo.API.Controllers
 
             if (!result) return BadRequest(Vehicle);
 
-            return CreatedAtAction("GetVehicle", new { id = Vehicle.Id}, Vehicle);
+            return Ok();
         }
         #endregion
 
