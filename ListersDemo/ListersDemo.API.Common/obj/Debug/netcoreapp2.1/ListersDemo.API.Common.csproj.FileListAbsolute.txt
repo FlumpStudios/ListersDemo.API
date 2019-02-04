@@ -37,3 +37,17 @@ C:\Users\paul.marrable\source\repos\ListersDemo\API\ListersDemo\ListersDemo.API.
 C:\Users\paul.marrable\source\repos\ListersDemo\API\ListersDemo\ListersDemo.API.Common\obj\Debug\netcoreapp2.1\ListersDemo.API.Common.csproj.CopyComplete
 C:\Users\paul.marrable\source\repos\ListersDemo\API\ListersDemo\ListersDemo.API.Common\obj\Debug\netcoreapp2.1\ListersDemo.API.Common.dll
 C:\Users\paul.marrable\source\repos\ListersDemo\API\ListersDemo\ListersDemo.API.Common\obj\Debug\netcoreapp2.1\ListersDemo.API.Common.pdb
+C:\Users\paul.marrable\Documents\Dev\ListersDemo\API\listersdemoapi\ListersDemo\ListersDemo.API.Common\bin\Debug\netcoreapp2.1\ListersDemo.API.Common.deps.json
+C:\Users\paul.marrable\Documents\Dev\ListersDemo\API\listersdemoapi\ListersDemo\ListersDemo.API.Common\bin\Debug\netcoreapp2.1\ListersDemo.API.Common.runtimeconfig.json
+C:\Users\paul.marrable\Documents\Dev\ListersDemo\API\listersdemoapi\ListersDemo\ListersDemo.API.Common\bin\Debug\netcoreapp2.1\ListersDemo.API.Common.runtimeconfig.dev.json
+C:\Users\paul.marrable\Documents\Dev\ListersDemo\API\listersdemoapi\ListersDemo\ListersDemo.API.Common\bin\Debug\netcoreapp2.1\ListersDemo.API.Common.dll
+C:\Users\paul.marrable\Documents\Dev\ListersDemo\API\listersdemoapi\ListersDemo\ListersDemo.API.Common\bin\Debug\netcoreapp2.1\ListersDemo.API.Common.pdb
+C:\Users\paul.marrable\Documents\Dev\ListersDemo\API\listersdemoapi\ListersDemo\ListersDemo.API.Common\bin\Debug\netcoreapp2.1\ListersDemo.API.DataContracts.dll
+C:\Users\paul.marrable\Documents\Dev\ListersDemo\API\listersdemoapi\ListersDemo\ListersDemo.API.Common\bin\Debug\netcoreapp2.1\ListersDemo.API.DataContracts.pdb
+C:\Users\paul.marrable\Documents\Dev\ListersDemo\API\listersdemoapi\ListersDemo\ListersDemo.API.Common\obj\Debug\netcoreapp2.1\ListersDemo.API.Common.csprojAssemblyReference.cache
+C:\Users\paul.marrable\Documents\Dev\ListersDemo\API\listersdemoapi\ListersDemo\ListersDemo.API.Common\obj\Debug\netcoreapp2.1\ListersDemo.API.Common.csproj.CoreCompileInputs.cache
+C:\Users\paul.marrable\Documents\Dev\ListersDemo\API\listersdemoapi\ListersDemo\ListersDemo.API.Common\obj\Debug\netcoreapp2.1\ListersDemo.API.Common.AssemblyInfoInputs.cache
+C:\Users\paul.marrable\Documents\Dev\ListersDemo\API\listersdemoapi\ListersDemo\ListersDemo.API.Common\obj\Debug\netcoreapp2.1\ListersDemo.API.Common.AssemblyInfo.cs
+C:\Users\paul.marrable\Documents\Dev\ListersDemo\API\listersdemoapi\ListersDemo\ListersDemo.API.Common\obj\Debug\netcoreapp2.1\ListersDemo.API.Common.csproj.CopyComplete
+C:\Users\paul.marrable\Documents\Dev\ListersDemo\API\listersdemoapi\ListersDemo\ListersDemo.API.Common\obj\Debug\netcoreapp2.1\ListersDemo.API.Common.dll
+C:\Users\paul.marrable\Documents\Dev\ListersDemo\API\listersdemoapi\ListersDemo\ListersDemo.API.Common\obj\Debug\netcoreapp2.1\ListersDemo.API.Common.pdb
